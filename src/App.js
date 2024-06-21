@@ -1,11 +1,11 @@
 import './App.css';
 import Navbar from './Component/Navbar/Navbar';
 import { BrowserRouter as Router ,Route,Routes } from 'react-router-dom';
-import Shop from '../src/Pages/Shop'
-import Cart from './Pages/Cart';
-import Product from '../src/Pages/Product'
-import ShopCategory from '../src/Pages/ShopCategory'
-import LoginSignup from '../src/Pages/LoginSignup'
+import Shop from './Component/Pages/Shop'
+import Cart from './Component/Pages/Cart';
+import Product from './Component/Pages/Product'
+import ShopCategory from './Component/Pages/ShopCategory'
+import LoginSignup from './Component/Pages/LoginSignup'
 
 
 function App() {

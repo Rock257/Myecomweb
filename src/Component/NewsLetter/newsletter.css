@@ -1,0 +1,45 @@
+.news-letter{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg , #34778885 , #b0b9b980 60%) ;
+    height: 90vh;
+    width: 100%;
+    font-family: fantasy;
+}
+
+.news-letter h1{
+font-size: 3rem;
+font-weight: 900;
+}
+
+.news-letter p{
+    font-size: 1.5rem;
+    font-weight:700 ;
+    color: #454545;
+    margin-bottom: 1rem;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.subscribe input{
+    width: 300px;
+    background: transparent;
+    height: 30px;
+    border-radius: .8rem;
+    border: 2px solid rgba(74, 119, 139, 0.562);
+}
+
+.subscribe button{
+    height: 30px;
+    width: 100px;
+    border-radius: .8rem;
+    background-color:rgba(74, 119, 139, 0.562);
+    cursor: pointer;
+}

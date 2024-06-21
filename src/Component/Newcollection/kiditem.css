@@ -1,0 +1,33 @@
+.kids_item{
+/* width: 250px;
+padding: 1.5rem; */
+}
+
+.kids_item p{
+    margin:  6px 0px;
+}
+
+.item_price{
+    display: flex;
+    gap: 20px;
+}
+
+.kids_item_new_price{
+    color: #374151 ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.kids_item_old_price{
+    color: #8c8c8c ;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    margin: 12px;
+    transition: .6s;
+}

@@ -1,0 +1,42 @@
+.footer{
+background: linear-gradient(180deg , hsla(323, 47%, 54%, 0.522) , #b0b9b980 60%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+
+.footer-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.footer-list ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+
+.footer-social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.footer-copyright{
+    margin-top: 1rem;
+}
