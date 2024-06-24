@@ -6,6 +6,11 @@ import Cart from './Component/Pages/Cart';
 import Product from './Component/Pages/Product'
 import ShopCategory from './Component/Pages/ShopCategory'
 import LoginSignup from './Component/Pages/LoginSignup'
+import Footer from './Component/Footer/Footer';
+import  MBanner from  './Component/Assets/banner_mens.png'
+import WBanner from  './Component/Assets/banner_women.png'
+import KBanner from './Component/Assets/banner_kids.png'
+
 
 
 function App() {
@@ -15,9 +20,9 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element= {<Shop/>}></Route>
-          <Route path='/mens' element={<ShopCategory category ='mens'/>}></Route>
-          <Route path='/womens' element={<ShopCategory category = 'womens'/>}></Route>
-          <Route path='/kids' element = {<ShopCategory category = 'kids'/>}></Route>
+          <Route path='/mens' element={<ShopCategory banner = {MBanner} category ='mens'/>}></Route>
+          <Route path='/womens' element={<ShopCategory banner = {WBanner} category = 'womens'/>}></Route>
+          <Route path='/kids' element = {<ShopCategory banner = {KBanner} category = 'kids'/>}></Route>
           <Route path='/product'element ={<Product/>}>
           <Route path=':productId' element = {<Product/>}></Route>
           </Route>
@@ -25,6 +30,7 @@ function App() {
           <Route path='/login' element={<LoginSignup/>}></Route>
         </Routes>
       </Router>
+      <Footer/>
      
     </div>
   );

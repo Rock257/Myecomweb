@@ -27,10 +27,10 @@ export default function Footer() {
             <img src={whatsapp} alt="" />
         </div>
         <div className="footer-copyright">
-            <footer>
                 {/* <span>&copy</span> */}
+                <hr />
             Copyright  @2024 -- ALL Right Reserved by Rahul Soni 
-            </footer>
+            
         </div>
     </div>
   )
